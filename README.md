@@ -2,11 +2,6 @@
 
 A modern, web-based personal finance management application built with Flask and JavaScript. Track your income and expenses, visualize your financial data, and maintain a clear overview of your financial health.
 
-![Finance Tracker](https://img.shields.io/badge/Version-1.0.0-blue.svg)
-![Python](https://img.shields.io/badge/Python-3.7+-green.svg)
-![Flask](https://img.shields.io/badge/Flask-2.0+-red.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
-
 ## 🌟 Features
 
 - **💸 Transaction Management**: Add, view, and delete income and expense transactions
@@ -124,53 +119,6 @@ The dashboard automatically displays:
 
 The application uses SQLite by default. The database file (`finance.db`) is automatically created on first run. No additional configuration required.
 
-### Customization
-
-- **Currency**: Modify the currency symbol in `templates/index.html` and `static/script.js`
-- **Categories**: Add default categories in the frontend dropdown
-- **Styling**: Customize colors and layout in `static/style.css`
-
-## 🚀 Deployment
-
-### Local Development
-```bash
-python app.py
-```
-
-### Production Deployment
-
-For production deployment, consider:
-
-1. **Using a production WSGI server**:
-   ```bash
-   pip install gunicorn
-   gunicorn -w 4 -b 0.0.0.0:5000 app:app
-   ```
-
-2. **Environment variables**:
-   - Set `FLASK_ENV=production`
-   - Configure proper database paths
-   - Use environment-specific configurations
-
-3. **Database**: Consider migrating to PostgreSQL for production use
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🐛 Known Issues
-
-- Currency is currently hardcoded to Indian Rupees (₹)
-- No user authentication system
-- Single-user application (no multi-user support)
 
 ## 🔮 Future Enhancements
 
@@ -193,12 +141,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🙏 Acknowledgments
-
-- [Flask](https://flask.palletsprojects.com/) - The web framework used
-- [Chart.js](https://www.chartjs.org/) - For beautiful charts
-- [SQLite](https://www.sqlite.org/) - Database engine
-
----
-
 ⭐ **Star this repository if you find it useful!**
+
+
