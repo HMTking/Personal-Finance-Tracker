@@ -29,8 +29,8 @@ A modern, web-based personal finance management application built with Flask and
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/personal-finance-tracker.git
-   cd personal-finance-tracker
+   git clone https://github.com/HMTking/Personal-Finance-Tracker.git
+   cd Personal-Finance-Tracker
    ```
 
 2. **Install dependencies**
@@ -182,13 +182,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [ ] Mobile app version
 - [ ] Advanced data analytics and insights
 
-## 📞 Support
+## 📞 Contact
 
-If you encounter any issues or have questions:
+**Datt Patel**  
+🎓 **College:** Indian Institute of Information Technology, Surat  
+🏆 **GATE CS AIR:** 387  
+🏆 **GATE DA AIR:** 877  
+📧 **Email:** dattpatel2020@gmail.com  
+💼 **LinkedIn:** [Connect with me](https://www.linkedin.com/in/datt-patel-a312a5256/)
 
-1. Check the [Issues](https://github.com/yourusername/personal-finance-tracker/issues) page
-2. Create a new issue with detailed description
-3. Contact: [your-email@example.com]
+---
 
 ## 🙏 Acknowledgments
 
@@ -199,5 +202,3 @@ If you encounter any issues or have questions:
 ---
 
 ⭐ **Star this repository if you find it useful!**
-
-Made with ❤️ by [Your Name]
